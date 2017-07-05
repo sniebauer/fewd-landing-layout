@@ -12,19 +12,19 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+ -moz-box-sizing: border-box; /* Firexfox */
+ -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+ box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+ content: ".";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
 }
 
 .clear {
@@ -46,12 +46,11 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+ color: #000;
+ font-size: 12px;
+ line-height: 1.4;
+ font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #f0efef;
 }
 
 
@@ -63,16 +62,21 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
+  text-align: center;
 }
 
 header {
-
+  height: 300px;
+  background-color: #033048;
+  font-size: 24px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  height: 300px;
+  background-size: cover;
 }
 
 footer {
-
+  background-color: #121212;
+  text-align: center;
 }
 
 /******************************************
@@ -81,4 +85,130 @@ footer {
 
 
 
+
+/* Header */
+
+#headercenter {
+
+}
+
+#logo {
+  font-weight: 800;
+  margin-left: 40px;
+  padding-top: 10px;
+
+}
+
+#tagline {
+  font-weight: 600;
+  margin: 30px;
+}
+
+.button {
+  border-radius: 5px;
+  width: 120px;
+  margin: auto;
+  font-weight: 800;
+  padding: 10px;
+}
+
+#getitbtn {
+  font-size: 14px;
+  background-color: #f9e42e;
+  color: #121212;
+  margin-top: 50px;
+}
+
+.left {
+  text-align: left;
+}
+
+/* Benefits */
+
+#benefitsrow {
+  background-color: #f0efef; 
+}
+
+.benefits {
+  width: 500px;
+  margin: auto;
+  font-size: 13px;
+  color: #606161;
+  font-weight: 300;
+}
+
+#benniestitle {
+  font-weight: 600;
+  padding: 40px 40px 20px 40px;
+  color: #033048;
+  font-size: 20px;
+}
+
+#benniesparagraph {
+  margin-left: 40px;
+  width: 65%;
+}
+
+#bennieslist {
+  width: 60%;
+  padding-left: 60px;
+  margin: 30px;
+  list-style: inherit;
+}
+
+
+/* Testimonial */
+
+
+.testimonial {
+  background-color: #033048;
+  font-size: 18px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  padding: 45px;
+}
+
+#testimonialwords {
+  font-style: italic;
+  font-weight: 200;
+  width: 60%;
+  margin: auto;
+}
+
+#amanda {
+  font-weight: 600;
+}
+
+
+/* Signup */
+
+
+#signup {
+  background-color: #f9e42e;
+  padding: 20px;
+}
+
+#signupbtn {
+  background-color: #033048;
+}
+
+
+/* Footer */
+
+#footerlogo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  padding:30px;
+}
+
+#social {
+  width: 100px;
+  margin: auto;
+}
+
+#copyright {
+  padding: 30px;
+  font-size: 9px;
+}
 
