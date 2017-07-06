@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: FEWD Landing Layout
+Client: Relaxr
+Author: Stephen Niebauer
 Developer @GA in NYC
 */
 
@@ -84,8 +84,6 @@ footer {
 /*******************************************/
 
 
-
-
 /* Header */
 
 #headercenter {
@@ -96,7 +94,6 @@ footer {
   font-weight: 800;
   margin-left: 40px;
   padding-top: 10px;
-
 }
 
 #tagline {
@@ -122,6 +119,7 @@ footer {
 .left {
   text-align: left;
 }
+
 
 /* Benefits */
 
@@ -181,7 +179,6 @@ footer {
 
 
 /* Signup */
-
 
 #signup {
   background-color: #f9e42e;
